@@ -44,5 +44,10 @@ a {
 }
 
 img {
-    width: 350px;
+    width: 500px;
+}
+
+hr {
+    margin: 20px 0 20px 0;
+    color: #747474;
 }
