@@ -1,0 +1,52 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: montserrat;
+    margin: 00px auto 0px auto;
+    background-color: #a3a3a3;
+    width:700px;
+}
+
+section#needs h1 {
+    margin: 50px 0 20px 0;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color:white;
+}
+section#needs ol li {
+    padding-bottom:10px;
+    color: #232340;
+}
+
+section#photos img {
+    height:30%;
+    width:30%;
+    margin: 30px 15px 20px 0;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-bottom:20px;
+    color:white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
