@@ -41,6 +41,10 @@ section#avatar_info {
     border:none;
 }
 
+section#upcoming_rides h5, section#past_rides h5 {
+    font-weight:normal;
+}
+
 section#upcoming_rides, section#past_rides{
     width:320px;
     height:102px;
@@ -63,3 +67,39 @@ p{
     text-decoration: underline;
 }
 
+button {
+    border-radius: 3px;
+    box-shadow: 0 0 4px #7f7f7f;
+    width: 113px;
+    height:30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+button.cancel {
+    background-color:white;
+    border: 2px solid #D32F2F;
+    box-shadow:none;
+    color:#D32F2F;
+}
+
+button.details {
+    background-color: #517FE7;
+    border-color:#517FE7;
+    color:white;
+}
+
+button.review {
+    background-color: #FFB74D;
+    border-color:#FFB74D;
+    color:white;
+}
+
+footer {
+    height:50px;
+    width:375px;
+    background-color: #517FE7;
+    position: absolute;
+    bottom:33px;
+}
