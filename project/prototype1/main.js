@@ -6,4 +6,9 @@
 $(document).ready(function () {
     console.log("ready");
 
+    $('.button').click(function () {
+        window.location.href = 'profile.html';
+        return false;
+    });
+
 });
